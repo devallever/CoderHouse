@@ -10,6 +10,7 @@ import org.litepal.LitePal;
  */
 
 public class CoderHouseApplication extends Application {
+
     private static Context context;
     @Override
     public void onCreate() {
