@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/id_bing_image_item_iv"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/alpha_black_5">
+
+        <TextView
+            android:id="@+id/id_bing_image_item_tv_copy_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="Hello"/>
+
+        <ImageView
+            android:id="@+id/id_bing_image_item_iv_calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/rili"
+            android:layout_alignParentBottom="true"
+            android:padding="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="2017-05-29"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@id/id_bing_image_item_iv_calendar"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/id_bing_image_item_tv_like_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="35"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/id_bing_image_item_iv_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:src="@mipmap/like"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/id_bing_image_item_tv_like_count"/>
+
+        <TextView
+            android:id="@+id/id_bing_image_item_tv_visit_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="48"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/id_bing_image_item_iv_like"
+            android:paddingBottom="10dp"
+            android:paddingRight="2dp"/>
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@mipmap/visit"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/id_bing_image_item_tv_visit_count"
+            android:paddingBottom="3dp"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
