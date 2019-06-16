@@ -13,9 +13,9 @@ android {
 
 
 
-        jackOptions {
-            enabled true
-        }
+//        jackOptions {
+//            enabled true
+//        }
 
 
     }
